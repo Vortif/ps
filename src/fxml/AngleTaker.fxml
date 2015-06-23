@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane fx:id="angleId" prefHeight="200.0" prefWidth="300.0" stylesheets="/fxml/Style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RotateImage">
+    <Label layoutX="72.0" layoutY="40.0" text="Angle" />
+    <TextField fx:id="angleTaker" layoutX="72.0" layoutY="60.0" />
+                                
+    <Button fx:id="rotateButton" layoutX="72.0" layoutY="100.0" mnemonicParsing="false" onAction="#rotateImg" prefHeight="14.0" prefWidth="70.0" text="Confirm"/>
+
+</AnchorPane>

@@ -1,0 +1,30 @@
+
+.root{
+    -fx-spacing: 15;
+    -fx-background-color: silver;
+}
+
+.menu-bar{
+    -fx-background-color: #6B6B6B;
+    -fx-font-weight: bold;
+    -fx-highlight-text-fill: aqua;
+}
+.menu-item{
+    -fx-font-weight: bold;
+    -fx-prompt-text-fill: black;
+}
+#scrollPaneImageBackgr{
+    -fx-background: #474747;
+    -fx-border-color: #6B6B6B;
+    -fx-border-width: 5px;
+}
+#splitPanelOfButtons{
+    -fx-background-color: #9A9A9A;
+    -fx-border-color: #6B6B6B;
+    -fx-border-width: 5px;
+}
+
+#splitPane{
+    -fx-border-width: 0px;
+    -fx-background-color: #6B6B6B;
+}
